@@ -3,53 +3,53 @@
 using namespace std;
 int main(){
 //creation 
-// vector<int>marks;
+  vector<int>marks;
 //with size
-// vector<int>price;
-// vector<int>kms(20);
+  vector<int>price;
+  vector<int>kms(20);
 //with default values in all
-// vector<int>pages(10,0);
+ vector<int>pages(10,0);
 //10 is the size of vector and 0 is the value in all 10 indexes
 
 //min size 
-// marks.reserve(10) ;
+  marks.reserve(10) ;
 
 //inserting elements in vector 
-// marks.push_back(10);
-// marks.push_back(20);
-// marks.push_back(30);
-// cout<<marks.size()<<endl;
+marks.push_back(10);
+marks.push_back(20);
+marks.push_back(30);
+cout<<marks.size()<<endl;
 
 //remove the last element 
-// marks.pop_back();
-// cout<<marks.size()<<endl;
+marks.pop_back();
+cout<<marks.size()<<endl;
 
 //print the first element
-// cout<<marks.front()<<endl;
+cout<<marks.front()<<endl;
 
 //print the last element
-// cout<<marks.back()<<endl;
+cout<<marks.back()<<endl;
 
-// if(price.empty()){
-//     cout<<"true"<<endl;
-// }
-// else{
-//     cout<<"false"<<endl;
-// }
-//only access when the vector size is defind
-// cout<<marks[0]<<endl;
+if(price.empty()){
+    cout<<"true"<<endl;
+}
+else{
+    cout<<"false"<<endl;
+}
+only access when the vector size is defind
+cout<<marks[0]<<endl;
 
 
 //size of vector
-// cout<<marks.size()<<endl;
+cout<<marks.size()<<endl;
 
 //capacity of the vector element can be stored 
-// cout<<marks.capacity()<<endl;
+cout<<marks.capacity()<<endl;
 
 //erasing in the vector
 
-// marks.erase(marks.begin(),marks.end());
-//  cout<<marks.size();
+marks.erase(marks.begin(),marks.end());
+ cout<<marks.size();
 
 
 
